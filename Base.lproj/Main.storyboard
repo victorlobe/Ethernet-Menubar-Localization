@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Application-->
+        <scene sceneID="JPo-4y-FX3">
+            <objects>
+                <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Ethernet_Menubar" customModuleProvider="target"/>
+                <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <application id="hnw-xV-0zn" sceneMemberID="viewController">
+                    <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
+                        <items>
+                            <menuItem title="Ethernet Menubar" id="1Xt-HY-uBw">
+                                <modifierMask key="keyEquivalentModifierMask"/>
+                                <menu key="submenu" title="Ethernet Menubar" systemMenu="apple" id="uQy-DD-JDr">
+                                    <items>
+                                        <menuItem title="About Ethernet Menubar" state="on" id="5kV-Vb-QxS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="VOq-y0-SEH"/>
+                                        <menuItem title="Preferences…" keyEquivalent="," id="BOF-NM-1cW"/>
+                                        <menuItem isSeparatorItem="YES" id="wFC-TO-SCJ"/>
+                                        <menuItem title="Hide Ethernet Menubar" keyEquivalent="h" id="Olw-nP-bQN">
+                                            <connections>
+                                                <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Hide Others" keyEquivalent="h" id="Vdr-fp-XzO">
+                                            <modifierMask key="keyEquivalentModifierMask" option="YES" command="YES"/>
+                                            <connections>
+                                                <action selector="hideOtherApplications:" target="Ady-hI-5gd" id="VT4-aY-XCT"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem title="Show All" id="Kd2-mp-pUS">
+                                            <modifierMask key="keyEquivalentModifierMask"/>
+                                            <connections>
+                                                <action selector="unhideAllApplications:" target="Ady-hI-5gd" id="Dhg-Le-xox"/>
+                                            </connections>
+                                        </menuItem>
+                                        <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
+                                        <menuItem title="Quit Ethernet Menubar" keyEquivalent="q" id="4sb-4s-VLi">
+                                            <connections>
+                                                <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
+                                            </connections>
+                                        </menuItem>
+                                    </items>
+                                </menu>
+                            </menuItem>
+                        </items>
+                    </menu>
+                    <connections>
+                        <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
+                    </connections>
+                </application>
+            </objects>
+            <point key="canvasLocation" x="75" y="0.0"/>
+        </scene>
+        <!--Window Controller-->
+        <scene sceneID="1jc-Ug-DsU">
+            <objects>
+                <windowController storyboardIdentifier="settingsW" id="4ta-3e-FXC" customClass="settingsW" customModule="Ethernet_Menubar" customModuleProvider="target" sceneMemberID="viewController">
+                    <window key="window" title="Settings" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="" animationBehavior="default" id="HhY-Hk-1ch">
+                        <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES"/>
+                        <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
+                        <rect key="contentRect" x="294" y="313" width="480" height="511"/>
+                        <rect key="screenRect" x="0.0" y="0.0" width="1920" height="1055"/>
+                        <view key="contentView" id="dUy-Ve-7Rz">
+                            <rect key="frame" x="0.0" y="0.0" width="480" height="511"/>
+                            <autoresizingMask key="autoresizingMask"/>
+                        </view>
+                        <connections>
+                            <outlet property="delegate" destination="4ta-3e-FXC" id="Pry-X5-pNh"/>
+                        </connections>
+                    </window>
+                    <connections>
+                        <segue destination="LJN-S3-AQT" kind="relationship" relationship="window.shadowedContentViewController" id="Va7-r1-xVQ"/>
+                    </connections>
+                </windowController>
+                <customObject id="lnC-Q1-oU2" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-609" y="408"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="NsW-Ux-fTV">
+            <objects>
+                <viewController title="Settings" id="LJN-S3-AQT" customClass="settingsVC" customModule="Ethernet_Menubar" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" id="U8e-VM-RwC">
+                        <rect key="frame" x="0.0" y="0.0" width="450" height="363"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <subviews>
+                            <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HvR-yj-os0">
+                                <rect key="frame" x="186" y="280" width="78" height="63"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="78" id="OMD-ou-UlZ"/>
+                                    <constraint firstAttribute="height" constant="63" id="XEo-UC-w1t"/>
+                                </constraints>
+                                <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyDown" image="Icon" id="Wm2-xU-tcd"/>
+                            </imageView>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Q31-a9-7uA">
+                                <rect key="frame" x="153" y="246" width="145" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="26" id="Vhc-tz-yeD"/>
+                                    <constraint firstAttribute="width" constant="141" id="bkp-2R-QpP"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" title="Ethernet Menu" id="38g-zv-AaQ">
+                                    <font key="font" metaFont="system" size="22"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="L3r-RZ-Wjn">
+                                <rect key="frame" x="20" y="188" width="268" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="Uwa-wz-7u1"/>
+                                    <constraint firstAttribute="width" constant="266" id="tYj-ln-ski"/>
+                                </constraints>
+                                <buttonCell key="cell" type="check" title="Push Notifications" bezelStyle="regularSquare" imagePosition="right" alignment="right" state="on" inset="2" id="gzB-rk-sbj">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="pushA:" target="LJN-S3-AQT" id="sEV-Jz-W01"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4Y6-Hm-HDf">
+                                <rect key="frame" x="20" y="212" width="268" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="JgO-xT-QAF"/>
+                                    <constraint firstAttribute="height" constant="16" id="Ymz-B3-tOD"/>
+                                </constraints>
+                                <buttonCell key="cell" type="check" title="Launch at Login" bezelStyle="regularSquare" imagePosition="right" alignment="right" state="on" inset="2" id="kzF-MQ-3Gp">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="launchAtLoginA:" target="LJN-S3-AQT" id="rTe-kW-94f"/>
+                                </connections>
+                            </button>
+                            <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="7D0-p4-IaW">
+                                <rect key="frame" x="20" y="235" width="410" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Kt4-M0-tcK"/>
+                                </constraints>
+                            </box>
+                            <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="kny-d3-gN2">
+                                <rect key="frame" x="20" y="178" width="410" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Ubm-nN-BM9"/>
+                                </constraints>
+                            </box>
+                            <box verticalHuggingPriority="750" boxType="separator" translatesAutoresizingMaskIntoConstraints="NO" id="B7D-t8-cJ4">
+                                <rect key="frame" x="20" y="49" width="410" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1" id="Avd-16-fUE"/>
+                                </constraints>
+                            </box>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="CdV-wT-17G">
+                                <rect key="frame" x="20" y="131" width="267" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="2oH-Ub-glW"/>
+                                    <constraint firstAttribute="width" constant="266" id="KDa-J3-Kty"/>
+                                </constraints>
+                                <buttonCell key="cell" type="check" title="Connected" bezelStyle="regularSquare" imagePosition="right" alignment="right" controlSize="small" state="on" inset="2" id="R7N-2f-VCv">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="smallSystem"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="pushAA:" target="LJN-S3-AQT" id="Iz1-oh-xE3"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="pyY-CY-e3Z">
+                                <rect key="frame" x="20" y="107" width="267" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="CBW-bl-5Td"/>
+                                    <constraint firstAttribute="height" constant="16" id="ql3-5Z-Bx0"/>
+                                </constraints>
+                                <buttonCell key="cell" type="check" title="Disconnected" bezelStyle="regularSquare" imagePosition="right" alignment="right" controlSize="small" state="on" inset="2" id="K1Z-FO-cr1">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="smallSystem"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="pushBA:" target="LJN-S3-AQT" id="6ab-hW-htY"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="3gh-Nb-W6H">
+                                <rect key="frame" x="20" y="83" width="267" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="jHj-Uj-RbS"/>
+                                    <constraint firstAttribute="width" constant="266" id="vk3-ro-Pw4"/>
+                                </constraints>
+                                <buttonCell key="cell" type="check" title="No Internet Access" bezelStyle="regularSquare" imagePosition="right" alignment="right" controlSize="small" state="on" inset="2" id="p35-6E-HjX">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="smallSystem"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="pushCA:" target="LJN-S3-AQT" id="ZaV-eu-HWN"/>
+                                </connections>
+                            </button>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="D8R-Pt-Cp1">
+                                <rect key="frame" x="20" y="59" width="267" height="18"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="266" id="6Xj-Ub-J87"/>
+                                    <constraint firstAttribute="height" constant="16" id="nKv-Cf-qhv"/>
+                                </constraints>
+                                <buttonCell key="cell" type="check" title="Other Warnings" bezelStyle="regularSquare" imagePosition="right" alignment="right" controlSize="small" state="on" inset="2" id="FHE-5g-twH">
+                                    <behavior key="behavior" changeContents="YES" doesNotDimImage="YES" lightByContents="YES"/>
+                                    <font key="font" metaFont="smallSystem"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="pushDA:" target="LJN-S3-AQT" id="9zu-zu-Ri4"/>
+                                </connections>
+                            </button>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="Tsh-Oj-fHu">
+                                <rect key="frame" x="18" y="156" width="414" height="16"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="16" id="0fm-E2-0Iy"/>
+                                </constraints>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Notify when Ethernet is:" id="1LI-KD-Gdh">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <button verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="UCb-F2-aPM">
+                                <rect key="frame" x="165" y="13" width="120" height="32"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="106" id="alb-kQ-RyB"/>
+                                    <constraint firstAttribute="height" constant="20" id="lCU-aH-VIJ"/>
+                                </constraints>
+                                <buttonCell key="cell" type="push" title="Apply" bezelStyle="rounded" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="6SY-L0-BTq">
+                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="system"/>
+                                </buttonCell>
+                                <connections>
+                                    <action selector="applyBtn:" target="LJN-S3-AQT" id="WMW-ux-a4Y"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="kny-d3-gN2" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" symbolic="YES" id="0sh-sJ-7pW"/>
+                            <constraint firstItem="kny-d3-gN2" firstAttribute="top" secondItem="L3r-RZ-Wjn" secondAttribute="bottom" constant="8" symbolic="YES" id="25v-Eh-Yu4"/>
+                            <constraint firstItem="B7D-t8-cJ4" firstAttribute="centerX" secondItem="U8e-VM-RwC" secondAttribute="centerX" id="5wV-vp-pga"/>
+                            <constraint firstItem="Tsh-Oj-fHu" firstAttribute="top" secondItem="kny-d3-gN2" secondAttribute="bottom" constant="8" id="933-Qf-ATw"/>
+                            <constraint firstAttribute="trailing" secondItem="7D0-p4-IaW" secondAttribute="trailing" constant="20" id="9Hb-Bd-n2n"/>
+                            <constraint firstItem="kny-d3-gN2" firstAttribute="centerX" secondItem="U8e-VM-RwC" secondAttribute="centerX" id="E4g-P8-EOM"/>
+                            <constraint firstItem="HvR-yj-os0" firstAttribute="centerX" secondItem="U8e-VM-RwC" secondAttribute="centerX" id="E9I-f0-oCC"/>
+                            <constraint firstAttribute="trailing" secondItem="kny-d3-gN2" secondAttribute="trailing" constant="20" symbolic="YES" id="Ecs-1i-il8"/>
+                            <constraint firstItem="Tsh-Oj-fHu" firstAttribute="centerX" secondItem="U8e-VM-RwC" secondAttribute="centerX" id="Ics-Cl-rYJ"/>
+                            <constraint firstItem="3gh-Nb-W6H" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" id="Inh-sT-Udi"/>
+                            <constraint firstItem="L3r-RZ-Wjn" firstAttribute="top" secondItem="4Y6-Hm-HDf" secondAttribute="bottom" constant="8" id="J2q-Ki-kDb"/>
+                            <constraint firstItem="pyY-CY-e3Z" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" id="J6p-g1-rEf"/>
+                            <constraint firstItem="7D0-p4-IaW" firstAttribute="centerX" secondItem="U8e-VM-RwC" secondAttribute="centerX" id="KXu-KE-7a6"/>
+                            <constraint firstAttribute="trailing" secondItem="B7D-t8-cJ4" secondAttribute="trailing" constant="20" id="Lve-Wg-G4X"/>
+                            <constraint firstItem="Q31-a9-7uA" firstAttribute="top" secondItem="HvR-yj-os0" secondAttribute="bottom" constant="8" id="RFk-xO-odk"/>
+                            <constraint firstItem="7D0-p4-IaW" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" id="SAR-ka-e1j"/>
+                            <constraint firstItem="HvR-yj-os0" firstAttribute="top" secondItem="U8e-VM-RwC" secondAttribute="top" constant="20" symbolic="YES" id="SF6-dI-uzd"/>
+                            <constraint firstItem="CdV-wT-17G" firstAttribute="top" secondItem="Tsh-Oj-fHu" secondAttribute="bottom" constant="8" id="SvQ-yD-LAD"/>
+                            <constraint firstItem="D8R-Pt-Cp1" firstAttribute="top" secondItem="3gh-Nb-W6H" secondAttribute="bottom" constant="8" id="U4u-lO-Lbi"/>
+                            <constraint firstItem="B7D-t8-cJ4" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" id="UB9-2O-7gD"/>
+                            <constraint firstItem="Q31-a9-7uA" firstAttribute="centerX" secondItem="U8e-VM-RwC" secondAttribute="centerX" id="Uma-ju-ikd"/>
+                            <constraint firstItem="UCb-F2-aPM" firstAttribute="centerX" secondItem="U8e-VM-RwC" secondAttribute="centerX" id="Von-Hu-1px"/>
+                            <constraint firstItem="4Y6-Hm-HDf" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" id="YGT-Ki-q5S"/>
+                            <constraint firstAttribute="trailing" secondItem="Tsh-Oj-fHu" secondAttribute="trailing" constant="20" id="Z1i-nM-VVE"/>
+                            <constraint firstItem="CdV-wT-17G" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" id="ZVk-2Z-XEb"/>
+                            <constraint firstItem="3gh-Nb-W6H" firstAttribute="top" secondItem="pyY-CY-e3Z" secondAttribute="bottom" constant="8" id="Zyg-0B-Ttq"/>
+                            <constraint firstItem="L3r-RZ-Wjn" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" symbolic="YES" id="ach-o7-S4J"/>
+                            <constraint firstItem="pyY-CY-e3Z" firstAttribute="top" secondItem="CdV-wT-17G" secondAttribute="bottom" constant="8" id="fdU-ps-ERJ"/>
+                            <constraint firstItem="Tsh-Oj-fHu" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" id="j5n-fc-3tk"/>
+                            <constraint firstItem="UCb-F2-aPM" firstAttribute="top" secondItem="B7D-t8-cJ4" secondAttribute="bottom" constant="11" id="kYu-k4-W8g"/>
+                            <constraint firstItem="D8R-Pt-Cp1" firstAttribute="leading" secondItem="U8e-VM-RwC" secondAttribute="leading" constant="20" id="pmy-Gq-hpu"/>
+                            <constraint firstItem="B7D-t8-cJ4" firstAttribute="top" secondItem="D8R-Pt-Cp1" secondAttribute="bottom" constant="8" id="pvD-lk-wXm"/>
+                            <constraint firstItem="7D0-p4-IaW" firstAttribute="top" secondItem="Q31-a9-7uA" secondAttribute="bottom" constant="8" id="wGX-d4-Zew"/>
+                            <constraint firstItem="4Y6-Hm-HDf" firstAttribute="top" secondItem="7D0-p4-IaW" secondAttribute="bottom" constant="8" id="zaA-rU-SBR"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="launchAtLoginC" destination="4Y6-Hm-HDf" id="tKp-ak-lwO"/>
+                        <outlet property="pushAC" destination="CdV-wT-17G" id="PKD-bB-mQ5"/>
+                        <outlet property="pushBC" destination="pyY-CY-e3Z" id="P46-JJ-YNZ"/>
+                        <outlet property="pushC" destination="L3r-RZ-Wjn" id="Det-5k-6r0"/>
+                        <outlet property="pushCC" destination="3gh-Nb-W6H" id="VpU-RG-cbL"/>
+                        <outlet property="pushDC" destination="D8R-Pt-Cp1" id="qMT-xL-H4N"/>
+                        <outlet property="pushLabel" destination="Tsh-Oj-fHu" id="3cG-Xt-Fkc"/>
+                        <outlet property="sepB" destination="kny-d3-gN2" id="0TB-7N-7iW"/>
+                    </connections>
+                </viewController>
+                <customObject id="kaZ-fr-odX" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-41" y="304.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Icon" width="2048" height="2048"/>
+    </resources>
+</document>

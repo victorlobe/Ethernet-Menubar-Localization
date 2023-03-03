@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "bağlı";
+"Not available" = "Müsait değil";
+"Connected, no internet access" = "Bağlı, internet erişimi yok";
+"No cable connected" = "Kablo bağlı değil";
+"Do not launch at login" = "Girişte başlatmayın";
+"Launch at login" = "Girişte başlat";
+"Quit" = "Çıkış yapmak";
+"Open Network Preferences ..." = "Ağ Tercihlerini Aç ...";

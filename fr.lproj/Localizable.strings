@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "Connecté";
+"Not available" = "Indisponible";
+"Connected, no internet access" = "Connecté, pas d'accès à Internet";
+"No cable connected" = "Aucun câble connecté";
+"Do not launch at login" = "Ne pas lancer à la connexion";
+"Launch at login" = "Lancement à la connexion";
+"Quit" = "Quitter";
+"Open Network Preferences ..." = "Ouvrir les préférences de réseau ...";

@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "Verbonden";
+"Not available" = "Niet beschikbaar";
+"Connected, no internet access" = "Verbonden, geen internettoegang";
+"No cable connected" = "Geen kabel aangesloten";
+"Do not launch at login" = "Niet starten bij inloggen";
+"Launch at login" = "Start bij inloggen";
+"Quit" = "Ontslag nemen";
+"Open Network Preferences ..." = "Netwerkvoorkeuren openen ...";

@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "連接的";
+"Not available" = "無法使用";
+"Connected, no internet access" = "已連接，無法訪問互聯網";
+"No cable connected" = "未連接電纜";
+"Do not launch at login" = "不要在登錄時啟動";
+"Launch at login" = "登錄時啟動";
+"Quit" = "退出";
+"Open Network Preferences ..." = "打開網絡首選項 ...";

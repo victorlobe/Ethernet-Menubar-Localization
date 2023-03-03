@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "Tilkoblet";
+"Not available" = "Ikke tilgjengelig";
+"Connected, no internet access" = "Tilkoblet, ingen internettilgang";
+"No cable connected" = "Ingen kabel tilkoblet";
+"Do not launch at login" = "Ikke start ved pålogging";
+"Launch at login" = "Start ved pålogging";
+"Quit" = "Slutte";
+"Open Network Preferences ..." = "Åpne Nettverksinnstillinger ...";

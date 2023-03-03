@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "接続済み";
+"Not available" = "利用不可";
+"Connected, no internet access" = "接続済み、インターネットアクセスなし";
+"No cable connected" = "ケーブルが接続されていません";
+"Do not launch at login" = "ログイン時に起動しないでください";
+"Launch at login" = "ログイン時に起動";
+"Quit" = "終了する";
+"Open Network Preferences ..." = "ネットワーク設定を開く ...";

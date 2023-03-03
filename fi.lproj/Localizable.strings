@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "Yhdistetty";
+"Not available" = "Ei saatavilla";
+"Connected, no internet access" = "Yhdistetty, ei internetyhteyttä";
+"No cable connected" = "Kaapelia ei ole kytketty";
+"Do not launch at login" = "Älä käynnistä kirjautumisen yhteydessä";
+"Launch at login" = "Käynnistä sisäänkirjautumisen yhteydessä";
+"Quit" = "Lopettaa";
+"Open Network Preferences ..." = "Avaa Verkkoasetukset ...";

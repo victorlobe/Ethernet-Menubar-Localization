@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Conectado" = "Conectado";
+"No disponible" = "No disponible";
+"Conectado, sin acceso a internet" = "Conectado, sin acceso a internet";
+"Sin cable conectado" = "Sin cable conectado";
+"No se lanzará en el inicio de sesión" = "No se lanzará en el inicio de sesión";
+"Lanzamiento en el inicio de sesión" = "Lanzamiento en el inicio de sesión";
+"Renunciar" = "Salir";
+"Preferencias de red abierta ..." = "Abrir preferencias de red ...";

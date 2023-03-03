@@ -1,0 +1,15 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "Připojeno";
+"Not available" = "Není dostupný";
+"Connected, no internet access" = "Připojeno, žádný přístup k internetu";
+"No cable connected" = "Není připojen žádný kabel";
+"Do not launch at login" = "Nespouštět při přihlášení";
+"Launch at login" = "Spusťte při přihlášení";
+"Quit" = "Přestat";
+"Open Network Preferences ..." = "Otevřete Předvolby sítě ...";
