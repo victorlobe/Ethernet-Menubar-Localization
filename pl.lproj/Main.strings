@@ -8,16 +8,16 @@
 "38g-zv-AaQ.title" = "Ethernet Menu";
 
 /* Class = "NSMenuItem"; title = "Quit Ethernet Menubar"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Quit Ethernet Menubar";
+"4sb-4s-VLi.title" = "Zakończ Ethernet Menubar";
 
 /* Class = "NSMenuItem"; title = "About Ethernet Menubar"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "About Ethernet Menubar";
+"5kV-Vb-QxS.title" = "O Ethernet Menubar";
 
 /* Class = "NSButtonCell"; title = "Apply"; ObjectID = "6SY-L0-BTq"; */
-"6SY-L0-BTq.title" = "Zastosować";
+"6SY-L0-BTq.title" = "Zastosuj";
 
 /* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
-"AYu-sK-qS6.title" = "Main Menu";
+"AYu-sK-qS6.title" = "Menu główne";
 
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
 "BOF-NM-1cW.title" = "Preferencje…";
@@ -29,28 +29,28 @@
 "HhY-Hk-1ch.title" = "Ustawienia";
 
 /* Class = "NSButtonCell"; title = "Disconnected"; ObjectID = "K1Z-FO-cr1"; */
-"K1Z-FO-cr1.title" = "Niepowiązany";
+"K1Z-FO-cr1.title" = "Odłączony";
 
 /* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
-"Kd2-mp-pUS.title" = "Show All";
+"Kd2-mp-pUS.title" = "Pokaż wszystko";
 
 /* Class = "NSViewController"; title = "Settings"; ObjectID = "LJN-S3-AQT"; */
 "LJN-S3-AQT.title" = "Ustawienia";
 
 /* Class = "NSMenuItem"; title = "Hide Ethernet Menubar"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Hide Ethernet Menubar";
+"Olw-nP-bQN.title" = "Ukryj Ethernet Menubar";
 
 /* Class = "NSButtonCell"; title = "Connected"; ObjectID = "R7N-2f-VCv"; */
 "R7N-2f-VCv.title" = "Połączony";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
-"Vdr-fp-XzO.title" = "Hide Others";
+"Vdr-fp-XzO.title" = "Ukryj inne";
 
 /* Class = "NSButtonCell"; title = "Push Notifications"; ObjectID = "gzB-rk-sbj"; */
 "gzB-rk-sbj.title" = "Powiadomienia push";
 
 /* Class = "NSButtonCell"; title = "Launch at Login"; ObjectID = "kzF-MQ-3Gp"; */
-"kzF-MQ-3Gp.title" = "Uruchom w Login";
+"kzF-MQ-3Gp.title" = "Uruchom przy logowaniu";
 
 /* Class = "NSButtonCell"; title = "No Internet Access"; ObjectID = "p35-6E-HjX"; */
 "p35-6E-HjX.title" = "Brak dostępu do internetu";
