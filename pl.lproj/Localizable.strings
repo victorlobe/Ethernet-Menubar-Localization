@@ -6,10 +6,10 @@
   
 */
 "Connected" = "Połączony";
-"Not available" = "Niedostępne";
+"Not available" = "Niedostępny";
 "Connected, no internet access" = "Połączony, brak dostępu do Internetu";
-"No cable connected" = "Brak połączony kabel";
-"Do not launch at login" = "Nie uruchomić w Login";
+"No cable connected" = "Brak podłączonego kabla";
+"Do not launch at login" = "Nie uruchamiaj przy logowaniu";
 "Launch at login" = "Uruchom przy logowaniu";
-"Quit" = "Zrezygnować";
+"Quit" = "Zakończ";
 "Open Network Preferences ..." = "Otwórz preferencje sieciowe ...";
