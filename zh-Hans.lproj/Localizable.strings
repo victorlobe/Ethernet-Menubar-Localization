@@ -5,11 +5,11 @@
   Created by Victor Lobe on 17.01.21.
   
 */
-"Connected" = "連接的";
-"Not available" = "無法使用";
-"Connected, no internet access" = "已連接，無法訪問互聯網";
-"No cable connected" = "未連接電纜";
-"Do not launch at login" = "不要在登錄時啟動";
-"Launch at login" = "登錄時啟動";
+"Connected" = "已连接";
+"Not available" = "无法使用";
+"Connected, no internet access" = "已连接,无法访问互联网";
+"No cable connected" = "未连接网线";
+"Do not launch at login" = "不在登录时启动";
+"Launch at login" = "登录时启动";
 "Quit" = "退出";
-"Open Network Preferences ..." = "打開網絡首選項 ...";
+"Open Network Preferences ..." = "打开网络设置...";
