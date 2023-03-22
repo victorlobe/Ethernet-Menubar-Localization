@@ -5,11 +5,11 @@
   Created by Victor Lobe on 17.01.21.
   
 */
-"Connected" = "Collegato";
+"Connected" = "Connesso";
 "Not available" = "Non disponibile";
-"Connected, no internet access" = "Collegato, nessun accesso a Internet";
+"Connected, no internet access" = "Connesso, nessun accesso a Internet";
 "No cable connected" = "Nessun cavo collegato";
-"Do not launch at login" = "Non avviare all'avvio";
-"Launch at login" = "Avvio all'avvio";
+"Do not launch at login" = "Non aprire al login";
+"Launch at login" = "Apri al login";
 "Quit" = "Esci";
-"Open Network Preferences ..." = "Apri le preferenze di rete...";
+"Open Network Preferences ..." = "Apri le preferenze di rete ...";
