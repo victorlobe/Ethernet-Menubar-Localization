@@ -1,5 +1,5 @@
 /* Class = "NSTextFieldCell"; title = "Notify when Ethernet is:"; ObjectID = "1LI-KD-Gdh"; */
-"1LI-KD-Gdh.title" = "Avvisa quando Ethernet è:";
+"1LI-KD-Gdh.title" = "Avvisa quando la connessione Ethernet è:";
 
 /* Class = "NSMenuItem"; title = "Ethernet Menubar"; ObjectID = "1Xt-HY-uBw"; */
 "1Xt-HY-uBw.title" = "Ethernet Menubar";
@@ -8,16 +8,16 @@
 "38g-zv-AaQ.title" = "Ethernet Menu";
 
 /* Class = "NSMenuItem"; title = "Quit Ethernet Menubar"; ObjectID = "4sb-4s-VLi"; */
-"4sb-4s-VLi.title" = "Quit Ethernet Menubar";
+"4sb-4s-VLi.title" = "Esci da Ethernet Menubar";
 
 /* Class = "NSMenuItem"; title = "About Ethernet Menubar"; ObjectID = "5kV-Vb-QxS"; */
-"5kV-Vb-QxS.title" = "About Ethernet Menubar";
+"5kV-Vb-QxS.title" = "Informazioni su Ethernet Menubar";
 
 /* Class = "NSButtonCell"; title = "Apply"; ObjectID = "6SY-L0-BTq"; */
-"6SY-L0-BTq.title" = "Applicare";
+"6SY-L0-BTq.title" = "Applica";
 
 /* Class = "NSMenu"; title = "Main Menu"; ObjectID = "AYu-sK-qS6"; */
-"AYu-sK-qS6.title" = "Main Menu";
+"AYu-sK-qS6.title" = "Menu principale";
 
 /* Class = "NSMenuItem"; title = "Preferences…"; ObjectID = "BOF-NM-1cW"; */
 "BOF-NM-1cW.title" = "Preferenze...";
@@ -32,19 +32,19 @@
 "K1Z-FO-cr1.title" = "Disconnesso";
 
 /* Class = "NSMenuItem"; title = "Show All"; ObjectID = "Kd2-mp-pUS"; */
-"Kd2-mp-pUS.title" = "Show All";
+"Kd2-mp-pUS.title" = "Mostra tutto";
 
 /* Class = "NSViewController"; title = "Settings"; ObjectID = "LJN-S3-AQT"; */
 "LJN-S3-AQT.title" = "Impostazioni";
 
 /* Class = "NSMenuItem"; title = "Hide Ethernet Menubar"; ObjectID = "Olw-nP-bQN"; */
-"Olw-nP-bQN.title" = "Hide Ethernet Menubar";
+"Olw-nP-bQN.title" = "Nascondi Ethernet Menubar";
 
 /* Class = "NSButtonCell"; title = "Connected"; ObjectID = "R7N-2f-VCv"; */
-"R7N-2f-VCv.title" = "Collegato";
+"R7N-2f-VCv.title" = "Connesso";
 
 /* Class = "NSMenuItem"; title = "Hide Others"; ObjectID = "Vdr-fp-XzO"; */
-"Vdr-fp-XzO.title" = "Hide Others";
+"Vdr-fp-XzO.title" = "Nascondi gli altri";
 
 /* Class = "NSButtonCell"; title = "Push Notifications"; ObjectID = "gzB-rk-sbj"; */
 "gzB-rk-sbj.title" = "Notifiche push";
@@ -53,7 +53,7 @@
 "kzF-MQ-3Gp.title" = "Avvia al login";
 
 /* Class = "NSButtonCell"; title = "No Internet Access"; ObjectID = "p35-6E-HjX"; */
-"p35-6E-HjX.title" = "Nessun accesso ad internet";
+"p35-6E-HjX.title" = "Nessun accesso ad Internet";
 
 /* Class = "NSMenu"; title = "Ethernet Menubar"; ObjectID = "uQy-DD-JDr"; */
 "uQy-DD-JDr.title" = "Ethernet Menubar";
