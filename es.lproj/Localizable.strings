@@ -5,11 +5,11 @@
   Created by Victor Lobe on 17.01.21.
   
 */
-"Conectado" = "Conectado";
-"No disponible" = "No disponible";
-"Conectado, sin acceso a internet" = "Conectado, sin acceso a internet";
-"Sin cable conectado" = "Sin cable conectado";
-"No se lanzará en el inicio de sesión" = "No se lanzará en el inicio de sesión";
-"Lanzamiento en el inicio de sesión" = "Lanzamiento en el inicio de sesión";
-"Renunciar" = "Salir";
-"Preferencias de red abierta ..." = "Abrir preferencias de red ...";
+"Connected" = "Conectado";
+"Not available" = "No disponible";
+"Connected, no internet access" = "Conectado, sin acceso a internet";
+"No cable connected" = "Sin cable conectado";
+"Do not launch at login" = "No se lanzará en el inicio de sesión";
+"Launch at login" = "Lanzamiento en el inicio de sesión";
+"Quit" = "Salir";
+"Open Network Preferences ..." = "Abrir preferencias de red ...";
