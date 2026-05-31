@@ -1,0 +1,33 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "연결됨";
+"Not available" = "사용할 수 없음";
+"Connected, no internet access" = "연결됨, 인터넷 접근 없음";
+"No cable connected" = "케이블이 연결되지 않음";
+"Do not launch at login" = "로그인 시 실행 안 함";
+"Launch at login" = "로그인 시 실행";
+"Quit" = "종료";
+"Open Network Preferences ..." = "네트워크 설정 열기 ...";
+"Preferences ..." = "설정 ...";
+"Preferences" = "설정";
+"Details" = "세부사항";
+"History" = "기록";
+"Push Notifications" = "푸시 알림";
+"Notify when Ethernet is:" = "이더넷 상태가 다음일 때 알림:";
+"Notification Sounds" = "알림 소리";
+"Play sounds when Ethernet is:" = "이더넷 상태가 다음일 때 소리 재생:";
+"Localize the App" = "앱 현지화";
+"Done" = "완료";
+"Push Notifications are disabled by macOS Settings." = "macOS 설정에서 푸시 알림이 비활성화되어 있습니다.";
+"Open Settings" = "설정 열기";
+"Status" = "상태";
+"Active" = "활성";
+"Inactive" = "비활성";
+"Link Speed" = "링크 속도";
+"Ethernet Type" = "Ethernet 유형";
+"Router" = "라우터";

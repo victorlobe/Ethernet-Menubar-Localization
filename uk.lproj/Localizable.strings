@@ -1,0 +1,33 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "Підключено";
+"Not available" = "Недоступно";
+"Connected, no internet access" = "Підключено, немає доступу до інтернету";
+"No cable connected" = "Кабель не підключено";
+"Do not launch at login" = "Не запускати під час входу";
+"Launch at login" = "Запускати під час входу";
+"Quit" = "Вийти";
+"Open Network Preferences ..." = "Відкрити параметри мережі ...";
+"Preferences ..." = "Параметри ...";
+"Preferences" = "Параметри";
+"Details" = "Докладно";
+"History" = "Історія";
+"Push Notifications" = "Push-сповіщення";
+"Notify when Ethernet is:" = "Сповіщати, коли Ethernet:";
+"Notification Sounds" = "Звуки сповіщень";
+"Play sounds when Ethernet is:" = "Відтворювати звуки, коли Ethernet:";
+"Localize the App" = "Локалізувати програму";
+"Done" = "Готово";
+"Push Notifications are disabled by macOS Settings." = "Push-сповіщення вимкнено в параметрах macOS.";
+"Open Settings" = "Відкрити параметри";
+"Status" = "Стан";
+"Active" = "Активно";
+"Inactive" = "Неактивно";
+"Link Speed" = "Швидкість з’єднання";
+"Ethernet Type" = "Тип Ethernet";
+"Router" = "Маршрутизатор";

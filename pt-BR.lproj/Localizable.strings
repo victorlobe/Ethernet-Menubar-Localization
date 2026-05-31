@@ -1,0 +1,33 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "Conectado";
+"Not available" = "Não disponível";
+"Connected, no internet access" = "Conectado, sem acesso à internet";
+"No cable connected" = "Nenhum cabo conectado";
+"Do not launch at login" = "Não abrir ao iniciar sessão";
+"Launch at login" = "Abrir ao iniciar sessão";
+"Quit" = "Encerrar";
+"Open Network Preferences ..." = "Abrir Preferências de Rede ...";
+"Preferences ..." = "Preferências ...";
+"Preferences" = "Preferências";
+"Details" = "Detalhes";
+"History" = "Histórico";
+"Push Notifications" = "Notificações push";
+"Notify when Ethernet is:" = "Notificar quando a Ethernet estiver:";
+"Notification Sounds" = "Sons de notificação";
+"Play sounds when Ethernet is:" = "Reproduzir sons quando a Ethernet estiver:";
+"Localize the App" = "Localizar o app";
+"Done" = "Concluído";
+"Push Notifications are disabled by macOS Settings." = "As notificações push estão desativadas nos Ajustes do macOS.";
+"Open Settings" = "Abrir Ajustes";
+"Status" = "Status";
+"Active" = "Ativo";
+"Inactive" = "Inativo";
+"Link Speed" = "Velocidade do link";
+"Ethernet Type" = "Tipo de Ethernet";
+"Router" = "Roteador";

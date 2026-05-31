@@ -1,0 +1,33 @@
+/* 
+  Localization.strings
+  Ethernet Menubar
+
+  Created by Victor Lobe on 17.01.21.
+  
+*/
+"Connected" = "Terhubung";
+"Not available" = "Tidak tersedia";
+"Connected, no internet access" = "Terhubung, tanpa akses internet";
+"No cable connected" = "Tidak ada kabel yang terhubung";
+"Do not launch at login" = "Jangan buka saat masuk";
+"Launch at login" = "Buka saat masuk";
+"Quit" = "Keluar";
+"Open Network Preferences ..." = "Buka Preferensi Jaringan ...";
+"Preferences ..." = "Preferensi ...";
+"Preferences" = "Preferensi";
+"Details" = "Detail";
+"History" = "Riwayat";
+"Push Notifications" = "Notifikasi push";
+"Notify when Ethernet is:" = "Beri tahu saat Ethernet:";
+"Notification Sounds" = "Suara notifikasi";
+"Play sounds when Ethernet is:" = "Putar suara saat Ethernet:";
+"Localize the App" = "Lokalkan Aplikasi";
+"Done" = "Selesai";
+"Push Notifications are disabled by macOS Settings." = "Notifikasi push dinonaktifkan di Pengaturan macOS.";
+"Open Settings" = "Buka Pengaturan";
+"Status" = "Status";
+"Active" = "Aktif";
+"Inactive" = "Tidak aktif";
+"Link Speed" = "Kecepatan tautan";
+"Ethernet Type" = "Jenis Ethernet";
+"Router" = "Router";
